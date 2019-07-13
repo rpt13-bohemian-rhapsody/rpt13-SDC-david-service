@@ -54,24 +54,6 @@ const getProductQuestions = (req, res) => {
   });
 };
 
-// const updateQuestionVote = (question_Id, body, callback) => {
-//   const _id = body.product;
-//   const vote = body.vote;
-//   // find productID
-//   questions.findById(_id, (err, doc) => {
-//     if (err) {
-//       callback(err);
-//     }
-//     doc.questions.forEach(question => {
-//       if (question.question_id === Number(question_Id)) {
-//         question.votes = question.votes + Number(vote);
-//         doc.save();
-//         callback(question);
-//       }
-//     });
-//   });
-// };
-
 const updateQuestionVote = (req, res) => {
   const _id = req.body.product;
   const vote = req.body.vote;

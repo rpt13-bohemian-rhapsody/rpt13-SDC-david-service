@@ -5,8 +5,6 @@ const morgan = require("morgan");
 const app = express();
 const db = require("../server/database/schema.js");
 const cors = require('cors');
-
-
 const PORT = process.env.PORT || 3000;
 
 // USE middleware
@@ -14,6 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 app.use(cors());
+
 // SERVER static files
 app.use(express.static(path.join(__dirname + "/../client/dist")));
 
@@ -25,11 +24,5 @@ app.get("/questions/product/:productId", db.getProductQuestions);
 
 // modifies the votes property of a question depending on the value
 app.post("/ask/vote/question/:question_id", db.updateQuestionVote)
-// app.post("/ask/vote/question/:question_id", (req, res) => {
-//   const question_Id = req.params.question_id;
-//   db.updateQuestionVote(question_Id, req.body, data => {
-//     res.send(data);
-//   });
-// });
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
