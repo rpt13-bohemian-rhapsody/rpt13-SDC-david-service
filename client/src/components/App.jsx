@@ -46,7 +46,7 @@ class App extends React.Component {
 
     // makes POST request to update the question's vote count
     axios
-      .put(`/products/votes/${question_id}`, {
+      .put(`/products/questions/votes/${question_id}`, {
         vote: voteValue,
         product: product_id
       })
