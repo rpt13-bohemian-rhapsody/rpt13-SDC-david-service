@@ -20,24 +20,16 @@ app.use(express.static(path.join(__dirname + "/../client/dist")));
 //allows to serve react files whenever the url Route is changed in the client side.
 app.use("/products/:id", express.static(path.join(__dirname + "/../client/dist")));
 
-app.get("/questions/product/:productId", (req, res) => {
-  // gets all questions for specific productId
-  db.getProductQuestions(req.params.productId, data => {
-    res.send(data);
-  });
-});
+// gets all questions for specific productId
+app.get("/questions/product/:productId", db.getProductQuestions);
 
-app.post("/ask/vote/question/:question_id", (req, res) => {
-  // modifies the votes property of a question depending on the value
-  //    click value must have products/:productId
-  // the body will have the productId & vote value
-  const question_Id = req.params.question_id;
-  console.log(req.body, `server - LINE 36`);
-  db.updateQuestionVote(question_Id, req.body, data => {
-    res.send(data);
-  });
-  // console.log(req.body, `BODY`)
-  // res.send(`RECEIVED RESPONSE`);
-});
+// modifies the votes property of a question depending on the value
+app.post("/ask/vote/question/:question_id", db.updateQuestionVote)
+// app.post("/ask/vote/question/:question_id", (req, res) => {
+//   const question_Id = req.params.question_id;
+//   db.updateQuestionVote(question_Id, req.body, data => {
+//     res.send(data);
+//   });
+// });
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

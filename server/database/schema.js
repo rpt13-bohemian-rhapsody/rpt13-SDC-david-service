@@ -40,35 +40,53 @@ const questionNAnswersSchema = mongoose.Schema({
 // to use schema, it must be converted to a Model
 const questions = mongoose.model("questions", questionNAnswersSchema);
 
-const getProductQuestions = (id, callback) => {
-
-  questions.find({ product: id }).exec((err, data) => {
+const getProductQuestions = (req, res) => {
+  questions.find({ product: req.params.productId }).exec((err, data) => {
     if (err) {
-      callback(err);
+      console.log(err);
     }
-    // console.log(data[0]);
+
     data[0].questions.sort((a, b) => {
       return b.votes - a.votes;
     });
-    callback(data[0]);
+
+    res.send(data[0]);
   });
 };
 
-const updateQuestionVote = (question_Id, body, callback) => {
-  const _id = body.product;
-  const vote = body.vote;
+// const updateQuestionVote = (question_Id, body, callback) => {
+//   const _id = body.product;
+//   const vote = body.vote;
+//   // find productID
+//   questions.findById(_id, (err, doc) => {
+//     if (err) {
+//       callback(err);
+//     }
+//     doc.questions.forEach(question => {
+//       if (question.question_id === Number(question_Id)) {
+//         question.votes = question.votes + Number(vote);
+//         doc.save();
+//         callback(question);
+//       }
+//     });
+//   });
+// };
+
+const updateQuestionVote = (req, res) => {
+  const _id = req.body.product;
+  const vote = req.body.vote;
+  const question_id = req.params.question_id;
+
   // find productID
   questions.findById(_id, (err, doc) => {
-    // iterate through the questions and find question_id
     if (err) {
-      callback(err);
+      console.log(err);
     }
     doc.questions.forEach(question => {
-      if (question.question_id === Number(question_Id)) {
+      if (question.question_id === Number(question_id)) {
         question.votes = question.votes + Number(vote);
-        // callback(question);
         doc.save();
-        callback(question);
+        res.send(question);
       }
     });
   });
