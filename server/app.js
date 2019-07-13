@@ -20,9 +20,9 @@ app.use(express.static(path.join(__dirname + "/../client/dist")));
 app.use("/products/:id", express.static(path.join(__dirname + "/../client/dist")));
 
 // gets all questions for specific productId
-app.get("/questions/product/:productId", db.getProductQuestions);
+app.get("/products/questions/:productId", db.getProductQuestions);
 
 // modifies the votes property of a question depending on the value
-app.post("/ask/vote/question/:question_id", db.updateQuestionVote)
+app.put("/products/votes/:question_id", db.updateQuestionVote)
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

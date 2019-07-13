@@ -24,15 +24,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // let id = window.location.pathname;
-    // with proxy = .get(`http://localhost:3000/questions/product/${window.location.href.split('/')[4] || 1}`)
-    // without proxy = .get(`/questions/product/${window.location.href.split('/')[4] || 1}`)
-
-    // with AWS = .get(`http://ec2-18-220-91-195.us-east-2.compute.amazonaws.com:80/questions/product/${window.location.href.split('/')[4] || 1}`)
     let id = window.location.href.split('/')[4] || 1
     if (id !== "/") {
       axios
-        .get(`http://localhost:3000/questions/product/${window.location.href.split('/')[4] || 1}`)
+        .get(`http://localhost:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
         .then(response => {
           // console.log(response, `this is is going well`)
           this.setState({ product: response.data });
@@ -51,7 +46,7 @@ class App extends React.Component {
 
     // makes POST request to update the question's vote count
     axios
-      .post(`/ask/vote/question/${question_id}`, {
+      .put(`/products/votes/${question_id}`, {
         vote: voteValue,
         product: product_id
       })
