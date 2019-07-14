@@ -19,16 +19,16 @@ app.use(express.static(path.join(__dirname + '/../client/dist')));
 //allows to serve react files whenever the url Route is changed in the client side.
 app.use('/products/:id', express.static(path.join(__dirname + '/../client/dist')));
 
-// creates question
-app.post('/products/questions/:productId');
+// creates product
+app.post('/products/questions/', db.createProduct);
 
 // read/get all questions for specific product
-app.get('/products/questions/:productId', db.getProductQuestions);
+app.get('/products/questions/:productId/', db.getProductQuestions);
 
 // update votes on a question
 app.put('/products/questions/votes/:question_id', db.updateQuestionVote)
 
-// deletes question
-app.delete('/products/questions/:productId');
+// deletes product
+app.delete('/products/questions/:productId', db.deleteProduct);
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

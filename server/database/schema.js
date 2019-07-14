@@ -74,9 +74,39 @@ const updateQuestionVote = (req, res) => {
   });
 };
 
+const deleteProduct = (req, res) => {
+  questions.findById(req.params.productId, (err, doc) => {
+    if (err) {
+      console.log(err);
+    }
+    doc.remove();
+  });
+};
+
+const createProduct = (req, res) => {
+  questions.count({}, (err, count) => {
+    if (err) {
+      console.log(err);
+    }
+    const newProduct = new questions({
+      product: count + 1,
+      questions: []
+    });
+
+    newProduct.save((err) => {
+      if (err) {
+        console.log(err);
+      }
+      res.json({ count: count + 1});
+    })
+  });
+};
+
 module.exports = {
   db,
   questions,
   getProductQuestions,
-  updateQuestionVote
+  updateQuestionVote,
+  deleteProduct,
+  createProduct
 };
