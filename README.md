@@ -77,6 +77,19 @@
 
 ## Development
 
+### API Endpoints
+  - GET /products/questions/:productId/
+    - Get all products with their corresponding questions, answers, and votes
+
+  - POST /products/questions/
+    - Creates a new product to begin adding questions/answers
+
+  - PUT /products/questions/votes/:question_id
+    - Updates count of votes given a particular product id
+
+  - DELETE /products/questions/:productId
+    - Deletes product along with their corresponding questions, answers, and votes
+
 ### Installing Dependencies
 
 From within the root directory:
