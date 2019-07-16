@@ -4,6 +4,7 @@ const path = require('path');
 const morgan = require('morgan');
 const app = express();
 const db = require('../server/database/schema.js');
+const db2 = require('./database/postgres/index.js');
 const cors = require('cors');
 const PORT = process.env.PORT || 3000;
 
