@@ -1,6 +1,6 @@
 const database = 'amazon';
 const { Pool } = require('pg');
-const pool = new Pool({ database: 'template1' });
+const pool = new Pool({ database });
 
 pool.on('connect', () => {
   console.log('connected to the db');
@@ -49,7 +49,7 @@ const createTables = () => {
 };
 
 const query = (text, params, callback) => {
-  return pool.query(text, params, callback);
+  return new Pool({ database }).query(text, params, callback);
 };
 
 createDatabase();
