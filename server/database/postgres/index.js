@@ -6,18 +6,6 @@ pool.on('connect', () => {
   console.log('connected to the db');
 });
 
-const createDatabase = () => {
-  pool.query(`SELECT 1 FROM pg_database WHERE datname = '${database}'`)
-  .then((res) => {
-    if (res.rowCount === 0) {
-      pool.query(`CREATE DATABASE ${database}`)
-      .then(() => {
-        createTables();
-      });
-    }
-  })
-}
-
 const createTables = () => {
   const createQuestions =
   `CREATE TABLE IF NOT EXISTS
@@ -52,10 +40,9 @@ const query = (text, params, callback) => {
   return new Pool({ database }).query(text, params, callback);
 };
 
-createDatabase();
+createTables();
 
 module.exports = {
-  createDatabase,
   createTables,
   query
 };
