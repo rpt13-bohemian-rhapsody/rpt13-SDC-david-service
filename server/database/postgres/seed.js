@@ -24,7 +24,7 @@ const seed = (iter) => {
     console.log(`Complete iteration ${i}`)
   };
 
-  db.query(query, [JSON.stringify(faker.questions(200000, iter))], nextSeed(iter, 50));
+  db.query(query, [JSON.stringify(faker.questions(100000, iter))], nextSeed(iter, 100));
 };
 
 console.time("dbsave");
