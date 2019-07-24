@@ -5,7 +5,7 @@ const seed = (iter) => {
   const query = `
     INSERT INTO questions (
       SELECT
-        (seed->>'id')::int, (seed->>'question')::text, (seed->>'product_id')::int
+        (seed->>'id')::int, (seed->>'question')::text, (seed->>'response')::text, (seed->>'votes')::int, (seed->>'product_id')::int
       FROM (
         SELECT json_array_elements($1::json) AS seed
       ) tmp
