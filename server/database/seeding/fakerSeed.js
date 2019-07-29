@@ -1,6 +1,10 @@
 const faker = require('faker');
+const Promise = require('bluebird');
+const fs = Promise.promisifyAll(require('fs'));
 
-module.exports.questions = (count, iter) => {
+const tick = () => new Promise(res => setTimeout(res, 0));
+
+const questions = (count, iter, cb) => {
   const questions = [];
 
   for (let i = 1; i <= count; i++) {
@@ -13,5 +17,14 @@ module.exports.questions = (count, iter) => {
     });
   }
 
-  return questions;
+  cb(questions);
 };
+
+(async () => {
+  for(let i = 0; i < 100; i++) {
+    questions(100000, i, (data) => {
+      fs.appendFileSync(`${__dirname}/fakerData.js`, JSON.stringify(data, null, '\t'))
+    })
+    await tick();
+  }
+})();

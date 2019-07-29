@@ -9,3 +9,6 @@ bundle.js
 
 # env 
 .env
+
+# faker data
+fakerData.js
