@@ -12,7 +12,7 @@ client.connect()
   })
   .then(() => {
     const query = `CREATE TABLE IF NOT EXISTS amazon.qna
-      (id1 uuid, question text, response text, votes int, product_id int, PRIMARY KEY(id1))`;
+      (id int, question text, response text, votes int, product_id int, PRIMARY KEY(id))`;
     return client.execute(query);
   })
   .then(() => {

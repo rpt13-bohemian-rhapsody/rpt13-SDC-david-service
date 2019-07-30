@@ -5,10 +5,11 @@ node_modules
 bundle.js
 
 #vscode
-.vscode 
+.vscode
 
-# env 
+# env
 .env
 
 # faker data
 fakerData.js
+fakerData.csv

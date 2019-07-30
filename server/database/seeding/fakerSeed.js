@@ -1,6 +1,5 @@
 const faker = require('faker');
 const fs = require('fs');
-const json2csv = require('json2csv').parse;
 
 const questions = (count, iter, cb) => {
   let questions = '';
@@ -14,7 +13,7 @@ const questions = (count, iter, cb) => {
 
 const seed = (() => {
   for(let i = 0; i < 50000; i++) {
-    questions(2, i, (data) => {
+    questions(200, i, (data) => {
       fs.appendFileSync(`${__dirname}/fakerData.csv`, data)
     })
   }
