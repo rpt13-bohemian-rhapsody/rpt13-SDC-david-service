@@ -1,31 +1,20 @@
 const db = require('./index.js');
-const faker = require('../seeding/fakerSeed.js');
 
-const seed = (iter) => {
+const seed = (() => {
+  console.time("dbsave");
   const query = `
-    INSERT INTO questions (
-      SELECT
-        (seed->>'id')::int, (seed->>'question')::text, (seed->>'response')::text, (seed->>'votes')::int, (seed->>'product_id')::int
-      FROM (
-        SELECT json_array_elements($1::json) AS seed
-      ) tmp
-    )
+    COPY questions (id, question, response, votes, product_id)
+    FROM '/Users/davidnguyen/RPT13/rpt13-SDC-david-service/server/database/seeding/fakerData.csv'
+    DELIMITER ',';
   `;
 
-  const nextSeed = (i, endIterAt) =>  (err, res) => {
+
+  db.query(query, null, (err, data) => {
     if (err) {
       console.log(err);
     }
-    if (i < endIterAt) {
-      seed(i + 1);
-    } else {
-      console.timeEnd("dbsave")
-    }
-    console.log(`Complete iteration ${i}`)
-  };
 
-  db.query(query, [JSON.stringify(faker.questions(100000, iter))], nextSeed(iter, 100));
-};
-
-console.time("dbsave");
-seed(0);
+    console.timeEnd("dbsave");
+    console.log(`Affected rows: 10,000,000`);
+  });
+})();
