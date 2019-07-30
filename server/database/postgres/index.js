@@ -17,25 +17,13 @@ const createTables = () => {
       product_id INT NOT NULL
     )`;
   pool.query(createQuestions)
-  // .then(() => {
-  //   const createResponses =
-  //   `CREATE TABLE IF NOT EXISTS
-  //     responses(
-  //       id INT PRIMARY KEY,
-  //       question_id INT NOT NULL,
-  //       create_date TIMESTAMP NOT NULL,
-  //       votes INT NOT NULL,
-  //       response TEXT NOT NULL
-  //     )`;
-  //   pool.query(createResponses)
     .then((res) => {
       pool.end();
     })
-  // })
-  .catch((err) => {
-    console.log(err);
-    pool.end();
-  });
+    .catch((err) => {
+      console.log(err);
+      pool.end();
+    });
 };
 
 const query = (text, params, callback) => {
