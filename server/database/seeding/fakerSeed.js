@@ -1,17 +1,20 @@
 const faker = require('faker');
+const fs = require('fs');
 
-module.exports.questions = (count, iter) => {
-  const questions = [];
+const questions = (count, iter, cb) => {
+  let questions = '';
 
   for (let i = 1; i <= count; i++) {
-    questions.push({
-      id: i + (count * iter),
-      question: `${faker.lorem.sentence().slice(0, -1)}?`,
-      response: faker.lorem.paragraph(),
-      votes: Math.floor(Math.random() * 1000),
-      product_id: Math.floor(Math.random() * 20000)
-    });
+    questions += `${i + (count * iter)}, ${faker.lorem.sentence().slice(0, -1)}?, ${faker.lorem.paragraph()}, ${Math.floor(Math.random() * 1000)}, ${Math.floor(Math.random() * 20000)}\n`;
   }
 
-  return questions;
+  cb(questions);
 };
+
+const seed = (() => {
+  for(let i = 0; i < 50000; i++) {
+    questions(200, i, (data) => {
+      fs.appendFileSync(`${__dirname}/fakerData.csv`, data)
+    })
+  }
+})();
