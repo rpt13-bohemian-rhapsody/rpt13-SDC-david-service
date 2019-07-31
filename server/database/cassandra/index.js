@@ -22,3 +22,11 @@ client.connect()
     console.error('There was an error', err);
     return client.shutdown().then(() => { throw err; });
   });
+
+const query = (query) => {
+  return client.execute(query);
+};
+
+module.exports = {
+  query
+}
