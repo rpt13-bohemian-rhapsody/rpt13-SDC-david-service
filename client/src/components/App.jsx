@@ -25,16 +25,17 @@ class App extends React.Component {
 
   componentDidMount() {
     let id = window.location.href.split('/')[4] || 1
+
     if (id !== "/") {
-      axios
-        .get(`http://localhost:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
+      axios.get(`http://localhost:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
         .then(response => {
-          // console.log(response, `this is is going well`)
-          this.setState({ product: response.data });
+          this.setState({
+            product: response.data
+          });
         })
         .catch(err => {
           console.log(err);
-        });
+      });
     }
   }
 
@@ -45,38 +46,37 @@ class App extends React.Component {
     const voteValue = event.target.elements.voteValue.value;
 
     // makes POST request to update the question's vote count
-    axios
-      .put(`/products/questions/votes/${question_id}`, {
+    axios.put(`/products/questions/votes/${question_id}`, {
         vote: voteValue,
         product: product_id
-      })
-      .then(response => {
-        /////
-        const questionId = response.data.question_id;
-        const voteValue = response.data.votes;
-        const questions = [...this.state.product.questions];
-        // find the question_id and update the vote value
-        questions.forEach(question => {
-          if (question.question_id === questionId) {
-            question.votes = voteValue;
-          }
-        });
-        questions.sort((a, b) => {
-          return b.votes - a.votes;
-        });
-        ///// working with response
-
-        // Change State Based on Votes
-        const {product, _id, __v}= this.state.product;
-
-        const updProduct ={};
-        updProduct.product = product;
-        updProduct._id = _id;
-        updProduct.__v = __v;
-        updProduct.questions = questions;
-
-        this.setState({ product: updProduct });
+    })
+    .then(response => {
+      /////
+      const questionId = response.data.question_id;
+      const voteValue = response.data.votes;
+      const questions = [...this.state.product.question];
+      // find the question_id and update the vote value
+      questions.forEach(question => {
+        if (question.question_id === questionId) {
+          question.votes = voteValue;
+        }
       });
+      questions.sort((a, b) => {
+        return b.votes - a.votes;
+      });
+      ///// working with response
+
+      // Change State Based on Votes
+      const {product, _id, __v}= this.state.product;
+
+      const updProduct ={};
+      updProduct.product = product;
+      updProduct._id = _id;
+      updProduct.__v = __v;
+      updProduct.questions = questions;
+
+      this.setState({ product: updProduct });
+    });
   }
 
   searchQueryResults(result, query) {
@@ -99,10 +99,9 @@ class App extends React.Component {
 
 
   render() {
-    const { product } = this.state;
-    const data = this.state.product.questions;
+    const data = this.state.product;
 
-    if (JSON.stringify(product) === "{}") {
+    if (JSON.stringify(data) === "{}") {
       return (
         <>
         </>
@@ -131,7 +130,7 @@ class App extends React.Component {
                   style={{ textAlign: "center" }}
                 >
                   <div className="a-section askTeaserQuestions">
-                    {this.state.product.questions.length === 0 ? (
+                    {this.state.product.length === 0 ? (
                       <div className="askQuestionExample">
                         <div className="askTypicalExample">
                           Typical questions asked about products:
@@ -147,9 +146,9 @@ class App extends React.Component {
                         </div>
                       </div>
                     ) : (
-                      this.state.product.questions.map(question => (
+                      this.state.product.map(question => (
                         <div
-                          key={question._id}
+                          key={question.id}
                           className="a-fixed-left-grid a-spacing-base"
                         >
                           <div
@@ -166,7 +165,7 @@ class App extends React.Component {
                             >
                               <Votes
                                 changevotes={this.changeVote.bind(this)}
-                                productId={this.state.product._id}
+                                productId={this.state.product.product_id}
                                 vote={question.votes}
                                 questionId={question.question_id}
                               />
@@ -177,7 +176,7 @@ class App extends React.Component {
                               style={{ paddingLeft: "1%", float: "left" }}
                             >
                               <Questions question={question} />
-                              <Answers answers={question.answers} questionId={question.question_id} />
+                              <Answers answers={question} questionId={question.id} />
                             </div>
                           </div>
                         </div>
