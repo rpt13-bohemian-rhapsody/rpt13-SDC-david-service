@@ -15,10 +15,11 @@ const queries = {
       SELECT *
       FROM questions
       WHERE product_id = ${req.params.productId}
-      ORDER BY votes DESC;
+      ORDER BY votes DESC
+      LIMIT 10;
     `
     query(q, (data) => {
-      res.send(data.rows);
+      res.status(200).send(data.rows);
     })
   },
 
@@ -29,12 +30,15 @@ const queries = {
     `)
   },
 
-  put: () => {
-    query(`
+  put: (req, res) => {
+    const q = `
       UPDATE questions
-      SET votes = 200
-      WHERE id = 901000;
-    `)
+      SET votes = ${parseInt(req.body.vote)}
+      WHERE id = ${req.params.question_id}
+    `
+    query(q, (data) => {
+      res.status(200).send(data.rows);
+    })
   },
 
   delete: () => {

@@ -41,41 +41,28 @@ class App extends React.Component {
 
   changeVote(event) {
     event.preventDefault();
-    const product_id = event.target.elements.product_id.value;
+
     const question_id = event.target.elements.question_id.value;
     const voteValue = event.target.elements.voteValue.value;
 
     // makes POST request to update the question's vote count
     axios.put(`/products/questions/votes/${question_id}`, {
-        vote: voteValue,
-        product: product_id
+        vote: voteValue
     })
-    .then(response => {
-      /////
-      const questionId = response.data.question_id;
-      const voteValue = response.data.votes;
-      const questions = [...this.state.product.question];
+    .then(() => {
+      const questions = this.state.product;
+
       // find the question_id and update the vote value
       questions.forEach(question => {
-        if (question.question_id === questionId) {
+        if (question.id === parseInt(question_id)) {
           question.votes = voteValue;
         }
       });
-      questions.sort((a, b) => {
-        return b.votes - a.votes;
-      });
-      ///// working with response
 
       // Change State Based on Votes
-      const {product, _id, __v}= this.state.product;
-
-      const updProduct ={};
-      updProduct.product = product;
-      updProduct._id = _id;
-      updProduct.__v = __v;
-      updProduct.questions = questions;
-
-      this.setState({ product: updProduct });
+      this.setState({
+        product: this.state.product
+      });
     });
   }
 
@@ -165,9 +152,8 @@ class App extends React.Component {
                             >
                               <Votes
                                 changevotes={this.changeVote.bind(this)}
-                                productId={this.state.product.product_id}
                                 vote={question.votes}
-                                questionId={question.question_id}
+                                questionId={question.id}
                               />
                             </div>
 

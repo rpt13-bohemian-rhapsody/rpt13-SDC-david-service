@@ -16,8 +16,7 @@ class Votes extends Component {
         <ul className="vote voteaxios">
           <li key={"up"}>
             <form className="up" onSubmit={this.updateVote.bind(this)}>
-              <input name="voteValue" value="1" type="hidden" />
-              <input name="product_id" value={productId} type="hidden" />
+              <input name="voteValue" value={vote + 1} type="hidden" />
               <input name="question_id" value={questionId} type="hidden" />
               <input type="submit" value="vote up" className="arrow-up" />
             </form>
@@ -31,7 +30,7 @@ class Votes extends Component {
           </li>
           <li className="down-vote" key={"down"}>
             <form className="down" onSubmit={this.updateVote.bind(this)}>
-              <input name="voteValue" value="-1" type="hidden" />
+              <input name="voteValue" value={vote - 1} type="hidden" />
               <input name="product_id" value={productId} type="hidden" />
               <input name="question_id" value={questionId} type="hidden" />
               <input type="submit" value="vote down" className="arrow-down" />

@@ -27,7 +27,7 @@ app.post('/products/questions/', db.createProduct);
 app.get('/products/questions/:productId/', db2.queries.get);
 
 // update votes on a question
-app.put('/products/questions/votes/:question_id', db.updateQuestionVote)
+app.put('/products/questions/votes/:question_id', db2.queries.put);
 
 // deletes product
 app.delete('/products/questions/:productId', db.deleteProduct);
