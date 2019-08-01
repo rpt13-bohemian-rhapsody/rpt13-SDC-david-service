@@ -3,7 +3,7 @@ const db = require('./index.js');
 const seed = (() => {
   console.time("dbsave");
   const query = `
-    COPY questions (id, question, response, votes, product_id)
+    COPY questions (id, question, response, userName, createdAt, votes, product_id)
     FROM '/Users/davidnguyen/RPT13/rpt13-SDC-david-service/server/database/seeding/fakerData.csv'
     DELIMITER ',';
   `;

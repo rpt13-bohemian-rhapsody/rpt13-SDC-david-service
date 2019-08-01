@@ -38,7 +38,7 @@ class Answers extends Component {
                 <span>{answer.response}</span>
                 <br />
                 <span className="a-color-tertiary">
-                  By {answer.user} on {moment(answer.createdAt).format("LL")}
+                  By {answer.username} on {moment(answer.createdat).format("LL")}
                 </span>
                 <br />
                 <div>

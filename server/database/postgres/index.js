@@ -13,6 +13,8 @@ const createTables = () => {
       id INT PRIMARY KEY,
       question TEXT NOT NULL,
       response TEXT NOT NULL,
+      username TEXT NOT NULL,
+      createdat TIMESTAMPTZ NOT NULL,
       votes INT NOT NULL,
       product_id INT NOT NULL
     )`;
