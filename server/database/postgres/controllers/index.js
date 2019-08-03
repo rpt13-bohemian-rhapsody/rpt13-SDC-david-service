@@ -20,14 +20,17 @@ const queries = {
     `
     query(q, (data) => {
       res.status(200).send(data.rows);
-    })
+    });
   },
 
-  post: () => {
-    query(`
-      INSERT INTO questions (id, question, response, votes, product_id)
-      VALUES (10000003, 'Test', 'Test', 200, 300);
-    `)
+  post: (req, res) => {
+    const q = `
+      INSERT INTO questions (id, question, response, username, createdat, votes, product_id)
+      VALUES (${req.params.question_id}, ${req.params.question}, ${req.params.response}, ${req.params.username}, ${req.params.createdat}, ${parseInt(req.body.vote)}, ${req.params.productId});
+    `
+    query(q, (data) => {
+      res.status(200).send(data.rows);
+    });
   },
 
   put: (req, res) => {
@@ -38,14 +41,17 @@ const queries = {
     `
     query(q, (data) => {
       res.status(200).send(data.rows);
-    })
+    });
   },
 
-  delete: () => {
-    query(`
+  delete: (req, res) => {
+    const q = `
       DELETE FROM questions
-      WHERE id = 900003
-    `)
+      WHERE id = ${req.params.question_id}
+    `
+    query(q, (data) => {
+      res.status(200).send(data.rows);
+    });
   }
 };
 
