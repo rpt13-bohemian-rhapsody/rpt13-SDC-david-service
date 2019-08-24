@@ -12,3 +12,6 @@ bundle.js
 
 # seed
 fakerData.csv
+
+# newrelic
+newrelic.js
