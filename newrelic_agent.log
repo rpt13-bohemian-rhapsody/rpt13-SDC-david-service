@@ -1,0 +1,461 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:40.830Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:40.925Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:40.925Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:41.046Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:41.046Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:43.336Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:43.337Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID Bc-LsvL4gja_ACViYBdm2C5dX2j4AAgBAAAnIQEAAGNcAgAXZtgsAwAGNS4xMS4wABhEYXZpZHMtTWFjQm9vay1Qcm8ubG9jYWwAB3Jldmlld3M.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:43.337Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:43.343Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:44.349Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:16:44.725Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:17:44.350Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:17:44.822Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:18:44.355Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:18:44.699Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:19:44.357Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:19:44.757Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:20:44.358Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:20:44.780Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:21:44.359Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:21:44.692Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:22:44.364Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:22:44.723Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:23:44.368Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:23:44.900Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:24:44.371Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:24:44.777Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:25:44.375Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:25:44.890Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:26:44.377Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:26:44.791Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:27:44.377Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:27:44.788Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:28:44.377Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:28:45.554Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:29:44.378Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:29:44.785Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:30:44.377Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:30:44.750Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:31:44.381Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:31:44.709Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:32:44.416Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:32:44.828Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:33:44.422Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:33:44.973Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:34:44.423Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:34:44.838Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:35:44.427Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:35:44.763Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:36:44.429Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":25436,"time":"2019-08-23T04:36:44.820Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:10.964Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:11.070Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:11.070Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:11.188Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:11.188Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:13.396Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:13.397Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BZve87XaYPj2ACViYBdm2C5dX3FoAAgBAAAnIQEAAMf0AgQXZtgsAwAGNS4xMS4wABhEYXZpZHMtTWFjQm9vay1Qcm8ubG9jYWwAB3Jldmlld3M.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:13.397Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:13.403Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:14.405Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51188,"time":"2019-08-23T04:52:14.788Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:52.743Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:52.851Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:52.852Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:52.978Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:52.978Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:54.935Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:54.935Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID Bd1yMJ2Znm6hACViYBdm2C5dX3FoAAgBAAAnIQEAAMhmAgQXZtgsAwAGNS4xMS4wABhEYXZpZHMtTWFjQm9vay1Qcm8ubG9jYWwAB3Jldmlld3M.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:54.935Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51302,"time":"2019-08-23T04:52:54.940Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:55.725Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:55.783Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:55.783Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:55.905Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:55.905Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:57.847Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:57.847Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BfBZuQazdVmKACViYBdm2C5dX3FoAAgBAAAnIQEAAMiEAgQXZtgsAwAGNS4xMS4wABhEYXZpZHMtTWFjQm9vay1Qcm8ubG9jYWwAB3Jldmlld3M.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:57.847Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:57.852Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:58.854Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:52:59.243Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:53:58.855Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:53:58.855Z","msg":"Dropped 47100 of 57100 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:53:58.855Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:54:00.545Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:54:58.856Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:55:00.639Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:55:58.858Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:55:59.269Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:56:58.859Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:56:59.438Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:57:58.863Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MacBook-Pro.local","pid":51332,"time":"2019-08-23T04:57:59.279Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:45.502Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:45.611Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:45.611Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:45.740Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:45.740Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:47.751Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:47.751Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BWfXwlbg--GxACViYBdoLwpdX5LsAAgBAAAnIQEAANEbAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:47.751Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:47.757Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:48.757Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:15:49.088Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:16:48.755Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53531,"time":"2019-08-23T07:16:49.281Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:03.679Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:03.744Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:03.744Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:03.861Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:03.861Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:05.881Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:05.881Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BTmV8qjqb8i5ACViYBdoLwpdX5NkAAgBAAAnIQEAANHlAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:05.881Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:05.885Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:06.886Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":53733,"time":"2019-08-23T07:17:07.222Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:06.910Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:06.979Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:06.979Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:07.093Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:07.093Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:09.046Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:09.046Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BTf6F4Lykb28ACViYBdoLwpdX5PcAAgBAAAnIQEAANOZAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:09.046Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:09.053Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:10.058Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:19:10.423Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:20:10.060Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:20:10.502Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:21:10.060Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:21:10.652Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:22:10.059Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:22:10.531Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:23:10.060Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:23:10.768Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:24:10.065Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:24:10.400Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:25:10.064Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:25:10.435Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:26:10.067Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":54169,"time":"2019-08-23T07:26:10.432Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:11.820Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:11.880Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:11.880Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:11.994Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:11.994Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:13.951Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:13.951Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BU0IGMb7ry3NACViYBdoLwpdX5WAAAgBAAAnIQEAANjmAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:13.951Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:13.958Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:14.958Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:26:15.298Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:27:14.960Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:27:15.315Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:28:14.964Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:28:15.325Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:29:14.967Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:29:15.220Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:30:14.967Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":55526,"time":"2019-08-23T07:30:15.315Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:44.854Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:44.914Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:44.914Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:45.029Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:45.030Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:46.996Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:46.996Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BcOASmX-PM3PACViYBdoLwpdX5ZwAAgBAAAnIQEAANtJAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:46.996Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:47.002Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:48.003Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56137,"time":"2019-08-23T07:30:48.372Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:01.546Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:01.603Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:01.603Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:01.719Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:01.720Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:03.081Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:03.081Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BdrOl5viRkUTACViYBdoLwpdX5asAAgBAAAnIQEAANuDAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:03.081Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:03.087Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:04.094Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:31:04.453Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:32:04.098Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:32:04.446Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:33:04.099Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:33:04.435Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:34:04.099Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:34:04.456Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:35:04.098Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:35:04.362Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:36:04.101Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56195,"time":"2019-08-23T07:36:04.460Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:26.121Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:26.178Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:26.178Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:26.291Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:26.291Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:28.319Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:28.320Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BS8LQv3rdAkNACViYBdoLwpdX5fYAAgBAAAnIQEAAN5eAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:28.320Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:28.326Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:29.332Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:36:29.696Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:37:29.337Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:37:29.687Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:38:29.337Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:38:29.688Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:39:29.336Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:39:29.694Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:40:29.339Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:40:29.713Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:41:29.339Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:41:29.697Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:42:29.344Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:42:29.682Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:43:29.344Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":56926,"time":"2019-08-23T07:43:29.701Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:46.474Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:46.532Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:46.532Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:46.645Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:46.645Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:48.570Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:48.570Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BXO6KEHQlWPuACViYBdoLwpdX5l8AAgBAAAnIQEAAOJIAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:48.570Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:48.577Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:49.579Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57928,"time":"2019-08-23T07:43:49.949Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:00.893Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:00.956Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:00.956Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:01.069Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:01.069Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:02.444Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:02.444Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BUiHnIruSFq5ACViYBdoLwpdX5m4AAgBAAAnIQEAAOJ8AgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:02.444Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:02.451Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:03.455Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":57980,"time":"2019-08-23T07:44:03.795Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:44:58.987Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:44:59.050Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:44:59.050Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:44:59.172Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:44:59.172Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:01.143Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:01.143Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BSG3rC-bZInTACViYBdoLwpdX5n0AAgBAAAnIQEAAOMWAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:01.143Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:01.150Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:02.155Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58134,"time":"2019-08-23T07:45:02.497Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:14.091Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:14.151Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:14.151Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:14.272Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:14.272Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:15.743Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:15.744Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BVwB63LJ01ELACViYBdoLwpdX5n0AAgBAAAnIQEAAONUAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:15.744Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:15.748Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:16.749Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58196,"time":"2019-08-23T07:45:17.102Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:27.122Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:27.182Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:27.182Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:27.300Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:27.300Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:29.260Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:29.260Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BWWm6OWXMqcoACViYBdoLwpdX5n0AAgBAAAnIQEAAOONAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:29.260Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:29.266Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:30.273Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:45:30.626Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:46:30.275Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58253,"time":"2019-08-23T07:46:30.656Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:46.010Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:46.072Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:46.073Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:46.193Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:46.193Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:48.177Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:48.178Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID Bam-DVTk-a1bACViYBdoLwpdX5owAAgBAAAnIQEAAORQAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:48.178Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:48.183Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:49.188Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58448,"time":"2019-08-23T07:46:49.548Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:53.835Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:53.896Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:53.896Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:54.016Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:54.016Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:55.404Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:55.404Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BVHb7tfnFHTrACViYBdoLwpdX5owAAgBAAAnIQEAAOR5AgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:55.404Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:55.410Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:56.424Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:46:56.862Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:47:56.426Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:47:56.426Z","msg":"Dropped 61201 of 71201 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:47:56.426Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:47:58.889Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:48:56.427Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:48:56.427Z","msg":"Dropped 63367 of 73367 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:48:56.427Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58489,"time":"2019-08-23T07:48:58.742Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:17.551Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:17.611Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:17.611Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:17.731Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:17.732Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:20.022Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:20.022Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BZxThJT8lJ3iACViYBdoLwpdX5rkAAgBAAAnIQEAAOXNAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:20.022Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:20.028Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:21.031Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58829,"time":"2019-08-23T07:49:21.426Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:31.186Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:31.247Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:31.247Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:31.362Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:31.362Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:32.829Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:32.829Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BUmCHUqaLashACViYBdoLwpdX5rkAAgBAAAnIQEAAOX-AgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:32.829Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:32.835Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:33.837Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:49:34.175Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:50:33.842Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:50:33.843Z","msg":"Dropped 125662 of 135662 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:50:33.843Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:50:35.862Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:51:33.841Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:51:33.842Z","msg":"Dropped 132802 of 142802 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:51:33.842Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:51:35.860Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:52:33.843Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:52:33.844Z","msg":"Dropped 99787 of 109787 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:52:33.844Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:52:35.995Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:53:33.847Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:53:33.847Z","msg":"Dropped 125890 of 135890 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:53:33.847Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:53:35.957Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:54:33.849Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:54:33.849Z","msg":"Dropped 39870 of 49870 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:54:33.849Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:54:35.616Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:55:33.850Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:55:35.463Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:56:33.853Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:56:33.854Z","msg":"Dropped 158854 of 168854 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:56:33.854Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:56:35.957Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:57:33.855Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:57:33.855Z","msg":"Dropped 143917 of 153917 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:57:33.855Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:57:35.547Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:58:33.857Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:58:33.857Z","msg":"Dropped 6297 of 16297 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:58:33.857Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:58:35.883Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:59:33.859Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:59:33.859Z","msg":"Dropped 142052 of 152052 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:59:33.859Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T07:59:36.022Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:00:33.859Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:00:33.859Z","msg":"Dropped 120805 of 130805 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:00:33.859Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:00:35.702Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:01:33.867Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:01:33.867Z","msg":"Dropped 14915 of 24915 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:01:33.868Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:01:36.136Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:02:33.877Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:02:33.877Z","msg":"Dropped 151014 of 161014 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:02:33.877Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:02:36.133Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:03:33.878Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:03:33.879Z","msg":"Dropped 115993 of 125993 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:03:33.879Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:03:35.741Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:04:33.902Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:04:33.902Z","msg":"Dropped 27729 of 37729 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:04:33.902Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:04:36.383Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:05:33.941Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:05:33.942Z","msg":"Dropped 127106 of 137106 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:05:33.942Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:05:36.894Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:06:33.946Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:06:33.946Z","msg":"Dropped 79410 of 89410 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:06:33.946Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:06:35.765Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:07:33.951Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:07:34.312Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:08:33.965Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:08:33.966Z","msg":"Dropped 107276 of 117276 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:08:33.966Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:08:37.169Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:09:33.968Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:09:33.968Z","msg":"Dropped 102883 of 112883 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:09:33.968Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:09:37.055Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:10:33.973Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:10:33.974Z","msg":"Dropped 7182 of 17182 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:10:33.974Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:10:35.751Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:11:33.973Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:11:34.324Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:12:33.974Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":58878,"time":"2019-08-23T08:12:34.325Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61943,"time":"2019-08-23T08:13:02.134Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":61943,"time":"2019-08-23T08:13:02.197Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61943,"time":"2019-08-23T08:13:02.197Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61943,"time":"2019-08-23T08:13:02.350Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61943,"time":"2019-08-23T08:13:02.350Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:03.250Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:03.316Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:03.316Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:03.445Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:03.445Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:05.345Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:05.346Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BXvYq92wKhk8ACViYBdoLwpdX6CEAAgBAAAnIQEAAPIHAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:05.346Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:05.352Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:06.357Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":61959,"time":"2019-08-23T08:13:06.690Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:52.092Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v10.15.3."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:52.149Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/express/index.js\n\tq: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/qs/lib/index.js\n\tmongodb: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mongodb/index.js\n\tbluebird: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/mquery/node_modules/bluebird/js/release/bluebird.js\n\tpg: /Users/davidnguyen/RPT13/rpt13-SDC-david-service/node_modules/pg/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:52.149Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:52.264Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:52.264Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:54.206Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:54.207Z","msg":"Connected to collector-007.newrelic.com:443 with agent run ID BQ3vZrHP1WXjACViYBdoLwpdX6E4AAgBAAAnIQEAAPRDAgQXZtgsAwAGNS4xMS4wAApEYXZpZHMtTUJQAAdyZXZpZXdz.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:54.207Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2450016/applications/392615980","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:54.212Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:55.218Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:16:55.560Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:17:55.219Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:17:55.731Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:18:55.220Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:18:55.669Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:19:55.222Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:19:55.901Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:20:55.222Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:20:55.655Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:21:55.226Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:21:55.834Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:22:55.228Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:22:55.583Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:23:55.233Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:23:55.828Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:24:55.235Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:24:55.922Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:25:55.237Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:25:55.992Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:26:55.239Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:26:55.889Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:27:55.241Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Davids-MBP","pid":62531,"time":"2019-08-23T08:27:55.711Z","msg":"Harvest finished."}
