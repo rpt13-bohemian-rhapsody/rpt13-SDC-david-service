@@ -6,7 +6,7 @@ const app = express();
 // const db = require('../server/database/schema.js');
 const db2 = require('./database/postgres/controllers/index.js');
 const cors = require('cors');
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 // require('newrelic');
 
 // USE middleware
