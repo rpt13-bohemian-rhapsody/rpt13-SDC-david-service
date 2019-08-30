@@ -4,7 +4,8 @@ const pool = new Pool({
   user: 'power_user',
   host: 'ec2-18-232-131-148.compute-1.amazonaws.com',
   database: database,
-  port: '5432'
+  port: '5432',
+  password: database
 });
 
 pool.on('connect', () => {
