@@ -27,7 +27,7 @@ app.get('*', (req, res) => {
 app.use('/products/:id', express.static(path.join(__dirname + '/../client/dist')));
 
 // creates product
-app.post('/products/questions/', db.createProduct);
+app.post('/products/questions/', db2.queries.post);
 
 // read/get all questions for specific product
 app.get('/products/questions/:productId/', db2.queries.get);
@@ -36,6 +36,6 @@ app.get('/products/questions/:productId/', db2.queries.get);
 app.put('/products/questions/votes/:question_id', db2.queries.put);
 
 // deletes product
-app.delete('/products/questions/:productId', db.deleteProduct);
+app.delete('/products/questions/:productId', db2.queries.delete);
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
