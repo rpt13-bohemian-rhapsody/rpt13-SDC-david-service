@@ -2,7 +2,7 @@
 node_modules
 
 #build file
-bundle.js
+# bundle.js
 
 #vscode
 .vscode
