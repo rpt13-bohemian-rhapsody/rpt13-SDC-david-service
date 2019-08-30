@@ -1,6 +1,11 @@
 const database = 'amazon';
 const { Pool } = require('pg');
-const pool = new Pool({ database });
+const pool = new Pool({
+  user: 'ec2-user',
+  host: 'ec2-18-232-131-148.compute-1.amazonaws.com',
+  database: database,
+  port: '5432'
+});
 
 pool.on('connect', () => {
   console.log('connected to the db');
