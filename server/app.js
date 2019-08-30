@@ -18,6 +18,11 @@ app.use(cors());
 // SERVER static files
 app.use(express.static(path.join(__dirname + '/../client/dist')));
 
+// send bundle
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/../client/dist'));
+});
+
 //allows to serve react files whenever the url Route is changed in the client side.
 app.use('/products/:id', express.static(path.join(__dirname + '/../client/dist')));
 
