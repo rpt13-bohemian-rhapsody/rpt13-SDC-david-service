@@ -27,7 +27,7 @@ class App extends React.Component {
     let id = window.location.href.split('/')[4] || 1
 
     if (id !== "/") {
-      axios.get(`http://localhost:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
+      axios.get(`http://ec2-3-91-90-148.compute-1.amazonaws.com:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
         .then(response => {
           this.setState({
             product: response.data
