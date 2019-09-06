@@ -14,13 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 app.use(cors());
 
-// SERVER static files
-app.use(express.static(path.join(__dirname + '/../client/dist')));
-
-
-
-//allows to serve react files whenever the url Route is changed in the client side.
-app.use('/products/:id', express.static(path.join(__dirname + '/../client/dist')));
+// Serves page with product id
+app.use('/:id', express.static(path.join(__dirname + '/../client/dist')));
 
 // Routes
 app.use('/', router);
