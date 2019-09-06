@@ -27,7 +27,8 @@ class App extends React.Component {
     let id = window.location.href.split('/')[4] || 1
 
     if (id !== "/") {
-      axios.get(`http://ec2-3-91-90-148.compute-1.amazonaws.com:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
+      axios.get(`http://localhost:3000/questions/${window.location.href.split('/')[4] || 1}`)
+      // axios.get(`http://ec2-3-91-90-148.compute-1.amazonaws.com:3000/products/questions/${window.location.href.split('/')[4] || 1}`)
         .then(response => {
           this.setState({
             product: response.data
@@ -46,7 +47,7 @@ class App extends React.Component {
     const voteValue = event.target.elements.voteValue.value;
 
     // makes POST request to update the question's vote count
-    axios.put(`/products/questions/votes/${question_id}`, {
+    axios.put(`/questions/${question_id}`, {
         vote: voteValue
     })
     .then(() => {

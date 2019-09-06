@@ -16,7 +16,7 @@ class Votes extends Component {
         <ul className="vote voteaxios">
           <li key={"up"}>
             <form className="up" onSubmit={this.updateVote.bind(this)}>
-              <input name="voteValue" value={vote + 1} type="hidden" />
+              <input name="voteValue" value={parseInt(vote) + 1} type="hidden" />
               <input name="question_id" value={questionId} type="hidden" />
               <input type="submit" value="vote up" className="arrow-up" />
             </form>
