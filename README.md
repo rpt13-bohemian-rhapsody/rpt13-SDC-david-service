@@ -1,5 +1,5 @@
 # Product Questions and Answers
-
+![](Amazon-Questions.gif)
 > This service will provide questions and answers when a product is selected. Questions can be ranked.
 
 ## Related Projects
